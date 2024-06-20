@@ -4,9 +4,12 @@
 ShopVT is a place where you can unleash your passion for games. There are many unique options, so you can play many games by purchasing our game account. We will provide you with many game accounts, where we only sell Lien Quan mobile game accounts.
 
 <h2>Main Feature</h2>
-  <ul>Hompage:
-    <li>Full range of services</li> 
-    <li>Button(see all): To view details on the see all page and select filters, enter information</li>
+  <ul>
+    <li>Hompage:</li>
+    <ul>
+      <li>Full range of services</li> 
+      <li>Button(see all): To view details on the see all page and select filters, enter information</li>
+    </ul>
   </ul>
 <li>See all page: Enter the code (letters and numbers), [Price, Rank, Number of characters, Numbers of skins, Sorted by] is a filter and can select any elements
   
