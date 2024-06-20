@@ -22,7 +22,7 @@ ShopVT is a place where you can unleash your passion for games. There are many u
     <li>Enter the code (letters and numbers)</li>
     <li>[Price, Rank, Number of characters, Numbers of skins, Sorted by] is a filter and can select any elements</li>
     <li>Button(Search): Can search for information on the filter and enter characters</li>
-    <li>_Button(All): All information can be searched</li>
+    <li>Button(All): All information can be searched</li>
     <li>Press the number buttons to move to another page</li>
   </ul>
 </ul>
