@@ -32,7 +32,9 @@ ShopVT is a place where you can unleash your passion for games. There are many u
 </ul>
 
 <h2>Wireframe</h2>
-<a href="(https://github.com/nhatvietax/shopvt.com/assets/163091302/0fa4d714-c4fd-4847-a60d-44f7eb5a1934" target="_blank" title='HOME'>HOME</a>
-![Home](https://github.com/nhatvietax/shopvt.com/assets/163091302/0fa4d714-c4fd-4847-a60d-44f7eb5a1934 )
-![Home](https://github.com/nhatvietax/shopvt.com/assets/163091302/1135cd3c-e2f6-44db-9d9c-fa9000e5d2fa)
+![Home](https://github.com/nhatvietax/shopvt.com/assets/163091302/7126009e-cf99-42aa-9eae-db8bf4717c3e)
+![See All](https://github.com/nhatvietax/shopvt.com/assets/163091302/aa934c87-27e0-4212-9f88-2c224f46e4ec)
+![See All 2](https://github.com/nhatvietax/shopvt.com/assets/163091302/0e430e44-ee81-47c8-b30e-27a333eff06f)
+![Detail](https://github.com/nhatvietax/shopvt.com/assets/163091302/1baaa63d-350f-461d-994f-df5755a14b90)
+
 
