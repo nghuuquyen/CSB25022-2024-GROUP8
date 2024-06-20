@@ -1,5 +1,9 @@
 <h1>ShopVT online</h1> 
 
+<h2>Team Member</h2>
+<li>Trần Anh Trung - 22090002</li>
+<li>Phan Nhất Việt - 22090004</li>
+
 <h2>Overview</h2>
 ShopVT is a place where you can unleash your passion for games. There are many unique options, so you can play many games by purchasing our game account. We will provide you with many game accounts, where we only sell Lien Quan mobile game accounts.
 
@@ -34,10 +38,34 @@ ShopVT is a place where you can unleash your passion for games. There are many u
 <h2>Wireframe</h2>
 
 ![Home](https://github.com/nhatvietax/shopvt.com/assets/163091302/7126009e-cf99-42aa-9eae-db8bf4717c3e)
-<img src="https://github.com/nhatvietax/shopvt.com/assets/163091302/7126009e-cf99-42aa-9eae-db8bf4717c3e" alt="Home" width="400" height="300">
 ![See All](https://github.com/nhatvietax/shopvt.com/assets/163091302/abc6247d-bf4e-473b-83db-f8d836436c6d)
 ![See All 2](https://github.com/nhatvietax/shopvt.com/assets/163091302/f1914a80-fcc9-4098-b936-9122328153ea)
 ![Detail](https://github.com/nhatvietax/shopvt.com/assets/163091302/a2d46f8e-168f-4327-a44f-e1406067c8e0)
 
-
-
+<h2>Planning</h2>
+<ul>
+  <li>Week1: Design user interface(UI) developmemt</li>
+  <ul>
+    <li>Home page</li>
+    <li>See all</li>
+    <li>Detail</li>
+  </ul>
+</ul>
+<uL>
+  <li>Week 2: Improve the user interface by modifying code (UI)</li>
+  <ul>
+    <li>Home page</li>
+    <li>See all</li>
+    <li>Detail</li>
+  </ul>
+</uL>
+<ul>
+  <li>Week 3: (ADD) database to the interface</li>
+  <ul>
+    <li>See all</li>
+    <li>Detail</li>
+  </ul>
+</ul>
+<ul>
+  <li>Week 4: Submit project</li>
+</ul>
