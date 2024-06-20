@@ -5,21 +5,30 @@ ShopVT is a place where you can unleash your passion for games. There are many u
 
 <h2>Main Feature</h2>
   <ul>
-    <li>Hompage:</li>
+    <li>Hompage</li>
     <ul>
       <li>Full range of services</li> 
       <li>Button(see all): To view details on the see all page and select filters, enter information</li>
     </ul>
   </ul>
-<li>See all page: Enter the code (letters and numbers), [Price, Rank, Number of characters, Numbers of skins, Sorted by] is a filter and can select any elements
   
-_Button(Search): Can search for information on the filter and enter characters
+<ul>
+  <li>See all page</li>
+  <ul>
+    <li>Enter the code (letters and numbers)</li>
+    <li>[Price, Rank, Number of characters, Numbers of skins, Sorted by] is a filter and can select any elements</li>
+    <li>Button(Search): Can search for information on the filter and enter characters</li>
+    <li>_Button(All): All information can be searched</li>
+    <li>Press the number buttons to move to another page</li>
+  </ul>
+</ul>
 
-_Button(All): All information can be searched
-
-_Press the number buttons to move to another page</li>
-<li>Detail page: Select all information from filter
-
-_All buttons for deposit and payment</li>
+<ul>
+  <li>Detail page</li>
+  <ul>
+    <li>Select all information from filter</li>
+    <li>All buttons for deposit and payment</li>
+  </ul>
+</ul>
 
 <h2>Wireframe</h2>
