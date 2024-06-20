@@ -5,6 +5,8 @@ ShopVT is a place where you can unleash your passion for games. There are many u
 
 <h2>Main Feature</h2>
 <li>Hompage:</li>
-<li>See all page: Enter the code (letters and numbers), [Price, Rank, Number of characters, Numbers of skins, Sorted by] is a filter and can select any elements, 
+<li>See all page: Enter the code (letters and numbers), [Price, Rank, Number of characters, Numbers of skins, Sorted by] is a filter and can select any elements,
+  
 Button(Search): Can search for information on the filter and enter characters,
+
 Button(All): All information can be searched</li>
