@@ -15,3 +15,5 @@ _Press the number buttons to move to another page</li>
 <li>Detail page: Select all information from filter
 
 _All buttons for deposit and payment</li>
+
+<h2>Wireframe</h2>
