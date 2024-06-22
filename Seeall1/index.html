@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Condensed:ital,wght@0,400;0,500;0,700;1,700&display=swap"
+    />
+    <link rel="stylesheet" href="index.js">
+  </head>
+  <body>
+    <div class="see-all">
+      <section class="pagination">
+        <div class="frame-parent">
+          <header class="frame-group">
+            <img
+              class="frame-child"
+              loading="lazy"
+              alt=""
+              src="./public/frame-1@2x.png"
+            />
+
+            <div class="right-sidebar-container">
+              <div class="button-container">
+                <div class="button">
+                  <div class="home">Home</div>
+                </div>
+                <div class="button1">
+                  <div class="recharge">Recharge</div>
+                </div>
+                <div class="button2">
+                  <div class="buy-acc">Buy Acc</div>
+                </div>
+                <div class="button3">
+                  <div class="service">Service</div>
+                </div>
+                <div class="button4">
+                  <div class="account">Account</div>
+                </div>
+              </div>
+            </div>
+          </header>
+          <div class="frame-wrapper">
+            <form class="header-with-image-parent">
+              <div class="header-with-image">
+                <h1 class="arena-of-valor">Arena of Valor Account</h1>
+                <div class="you-need-to-container">
+                  <b class="you-need-to"
+                    >You need to buy a quality, high-ranked Lien Quan account
+                    but don't know where to buy it. Please refer to
+                  </b>
+                  <i class="shopvtcom">ShopVT.com</i>
+                  <b class="website-that-sells">
+                    website that sells reputable Lien Quan game accounts at the
+                    cheapest price on the market.</b
+                  >
+                </div>
+                <div class="read-more-container">
+                  <button class="rectangle-parent">
+                    <div class="frame-item"></div>
+                    <i class="see-more">See More</i>
+                  </button>
+                </div>
+              </div>
+              <div class="frame-container">
+                <div class="rectangle-group">
+                  <div class="frame-inner"></div>
+                  <div class="filter-bar">
+                    <div class="code-label-container-parent">
+                      <div class="code-label-container">
+                        <div class="code-label-container-child"></div>
+                        <div class="code-account">Code account:</div>
+                      </div>
+                      <div class="code-field">
+                          <input type="text", id="user-input", placeholder="Input...">
+                      </div>
+                    </div>
+                    <div class="filter-labels-container">
+                      <div class="filter-labels-pair">
+                        <div class="price">Price:</div>
+                        <div class="input-fields"></div>
+                      </div>
+                      <div class="option-indicators">
+                        <select class="custom-select", id="mySelect">
+                          <option value="0">   </option>
+                          <option value="1">Under 50K </option>
+                          <option value="2">From 50K-200K </option>
+                          <option value="3">From 200K-500K</option>
+                          <option value="4">From 500K-1M </option>
+                          <option value="5">Over 1M</option>
+                          <option value="6">Over 5M</option>
+                          <option value="7">Over 10M </option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="filter-labels-container1">
+                      <div class="rank-parent">
+                        <div class="rank">Rank:</div>
+                        <div class="rectangle-div">
+                          
+                        </div>
+                      </div>
+                      <div class="filter-labels-container-child">
+                        <select class="custom-rank", id="mySelect">
+                          <option value="0">   </option>
+                          <option value="1">Bronze </option>
+                          <option value="2">Silver </option>
+                          <option value="3">Gold </option>
+                          <option value="4">Platinum </option>
+                          <option value="5">Diamond </option>
+                          <option value="6">Elite </option>
+                          <option value="7">Master </option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="character-count-label-containe-parent">
+                    <div class="character-count-label-containe">
+                      <div class="character-count-label-wrapper">
+                        <div class="character-count-sub-label-wrap">
+                          <div class="number-of-characters"> Number of characters: </div>
+
+                          <div class="character-count-input"></div>
+                        </div>
+                        <div class="character-indicators">
+                          <select class="custom-characters", id="mySelect">
+                            <option value="0">   </option>
+                            <option value="1">10-50 </option>
+                            <option value="2">50-100 </option>
+                            <option value="3">100-150 </option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="skin-count-label-container-parent">
+                        <div class="skin-count-label-container">
+                          <div class="skin-count-label-container-child"></div>
+                          <div class="number-of-skins">Number of skins:</div>
+                        </div>
+                        <div class="skin-field">
+                          <select class="custom-skins", id="mySelect">
+                            <option value="0">   </option>
+                            <option value="1">10-80 </option>
+                            <option value="2">80-300 </option>
+                            <option value="3">300-600 </option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="sort-container-parent">
+                        <div class="sort-container">
+                          <div class="sort-container-child"></div>
+                          <div class="sort-input-label-container">
+                            <div class="sorted-by">Sorted by:</div>
+                          </div>
+                        </div>
+                        <div class="frame-child1">
+                          <select class="custom-sorted", id="mySelect">
+                            <option value="0">Random </option>
+                            <option value="1">Prices range from high to low </option>
+                            <option value="2">Prices range from low to high </option>
+                            <option value="3">Newest </option>
+                            <option value="4">Oldest </option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="search-input-container">
+                      <div class="search-bar-container">
+                        <button class="search-bar-elements">
+                          <b class="search">Search</b>
+                        </button>
+                        <button class="search-bar-elements1">
+                          <b class="all">All</b>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="content">
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-components-container">
+              <div class="card-content-container">
+                <img
+                  class="image-icon"
+                  loading="lazy"
+                  alt=""
+                  src="public/YS1102.jpg"
+                />
+
+                <div class="code-labels-container">
+                  <div class="code-labels-container-child"></div>
+                  <b class="code-yc1293">CODE : #YS1102</b>
+                </div>
+              </div>
+              <div class="nicknames-container">
+                <b class="nick-lin-qun">Nick Lien Quan Mobile</b>
+              </div>
+            </div>
+            <div class="card-details-container">
+              <div class="skins-and-figures-container">
+                <div class="number-of-skins1">Number Of Skins : 160</div>
+                <div class="figures-labels-container">
+                  <div class="number-of-figures">Number Of Figures: 120</div>
+                </div>
+              </div>
+              <div class="details-button-container">
+                <div class="details-button-wrapper">
+                  <div class="placeholder">
+                    <div class="empty">350.000</div>
+                  </div>
+                  <button class="details-button-labels-containe">
+                    <a href="C:\Users\MSIGameMing\OneDrive\Documents\Shopvt.vn\detail2\index.html">
+                    <div class="chi-tit">DETAIL </div>
+                  </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="frame-div">
+              <div class="image-parent">
+                <img class="image-icon1" alt="" src="public/YS1121.jpg" />
+
+                <div class="rectangle-container">
+                  <div class="frame-child2"></div>
+                  <b class="code-yc12931">CODE : #YS1121</b>
+                </div>
+              </div>
+              <div class="nick-lin-qun-trng-wrapper">
+                <b class="nick-lin-qun1">Skin Vip</b>
+              </div>
+            </div>
+            <div class="frame-parent1">
+              <div class="number-of-skins-100-parent">
+                <div class="number-of-skins2">Number Of Skins : 170</div>
+                <div class="number-of-figures-50-wrapper">
+                  <div class="number-of-figures1">Number Of Figures: 120</div>
+                </div>
+              </div>
+              <div class="frame-wrapper1">
+                <div class="frame-parent2">
+                  <div class="wrapper">
+                    <div class="div">3.500.000</div>
+                  </div>
+                  <button class="chi-tit-wrapper">
+                    <div class="chi-tit1">DETAIL </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card2">
+            <div class="frame-parent3">
+              <div class="image-group">
+                <img class="image-icon2" alt="" src="public/MS1122.jpg" />
+
+                <div class="rectangle-parent1">
+                  <div class="frame-child3"></div>
+                  <b class="code-yc12932">CODE : #MS1122</b>
+                </div>
+              </div>
+              <div class="nick-lin-qun-trng-container">
+                <b class="nick-lin-qun2">Bufterfly Top Center VN                </b>
+              </div>
+            </div>
+            <div class="frame-parent4">
+              <div class="number-of-skins-100-group">
+                <div class="number-of-skins3">Number Of Skins : 120</div>
+                <div class="number-of-figures-50-container">
+                  <div class="number-of-figures2">Number Of Figures: 60</div>
+                </div>
+              </div>
+              <div class="frame-wrapper2">
+                <div class="frame-parent5">
+                  <div class="container">
+                    <div class="div1">1.500.000</div>
+                  </div>
+                  <button class="chi-tit-container">
+                    <div class="chi-tit2">DETAIL </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card3">
+            <div class="frame-parent6">
+              <div class="image-container">
+                <img class="image-icon3" alt="" src="public/MS1123.jpg" />
+
+                <div class="rectangle-parent2">
+                  <div class="frame-child4"></div>
+                  <b class="code-yc12933">CODE : #MS1123</b>
+                </div>
+              </div>
+              <div class="nick-lin-qun-trng-frame">
+                <b class="nick-lin-qun3">Violet Than Long Ty Ty                </b>
+              </div>
+            </div>
+            <div class="frame-parent7">
+              <div class="number-of-skins-100-container">
+                <div class="number-of-skins4">Number Of Skins : 192</div>
+                <div class="number-of-figures-50-frame">
+                  <div class="number-of-figures3">Number Of Figures: 108</div>
+                </div>
+              </div>
+              <div class="frame-wrapper3">
+                <div class="frame-parent8">
+                  <div class="frame">
+                    <div class="div2">3.000.000</div>
+                  </div>
+                  <button class="chi-tit-frame">
+                    <div class="chi-tit3">DETAIL </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card4">
+            <div class="frame-parent9">
+              <div class="image-parent1">
+                <img class="image-icon4" alt="" src="public/MS1124.jpg" />
+
+                <div class="rectangle-parent3">
+                  <div class="frame-child5"></div>
+                  <b class="code-yc12934">CODE : #MS1124</b>
+                </div>
+              </div>
+              <div class="nick-lin-qun-trng-wrapper1">
+                <b class="nick-lin-qun4">Ari Kimono                </b>
+              </div>
+            </div>
+            <div class="frame-parent10">
+              <div class="number-of-skins-100-parent1">
+                <div class="number-of-skins5">Number Of Skins : 189</div>
+                <div class="number-of-figures-50-wrapper1">
+                  <div class="number-of-figures4">Number Of Figures: 104</div>
+                </div>
+              </div>
+              <div class="frame-wrapper4">
+                <div class="frame-parent11">
+                  <div class="wrapper1">
+                    <div class="div3">4.500.000đ                    </div>
+                  </div>
+                  <button class="frame-button">
+                    <div class="chi-tit4">DETAIL </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card5">
+            <div class="frame-parent12">
+              <div class="image-parent2">
+                <img class="image-icon5" alt="" src="public/MS1125.jpg" />
+
+                <div class="rectangle-parent4">
+                  <div class="frame-child6"></div>
+                  <b class="code-yc12935">CODE : #MS1125 </b>
+                </div>
+              </div>
+              <div class="nick-lin-qun-trng-wrapper2">
+                <b class="nick-lin-qun5">Florentino Tinh He
+                </b>
+              </div>
+            </div>
+            <div class="frame-parent13">
+              <div class="number-of-skins-100-parent2">
+                <div class="number-of-skins6">Number Of Skins : 421</div>
+                <div class="number-of-figures-50-wrapper2">
+                  <div class="number-of-figures5">Number Of Figures: 98</div>
+                </div>
+              </div>
+              <div class="frame-wrapper5">
+                <div class="frame-parent14">
+                  <div class="wrapper2">
+                    <div class="div4">5.200.000đ
+
+                    </div>
+                  </div>
+                  <button class="chi-tit-wrapper1">
+                    <div class="chi-tit5">DETAIL </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card6">
+            <div class="frame-parent15">
+              <div class="image-parent3">
+                <img class="image-icon6" alt="" src="public/MS1126.jpg" />
+
+                <div class="rectangle-parent5">
+                  <div class="frame-child7"></div>
+                  <b class="code-yc12936">CODE : #MS1126 </b>
+                </div>
+              </div>
+              <div class="nick-lin-qun-trng-wrapper3">
+                <b class="nick-lin-qun6">Lauriel Tinh Van Su
+                </b>
+              </div>
+            </div>
+            <div class="frame-parent16">
+              <div class="number-of-skins-100-parent3">
+                <div class="number-of-skins7">Number Of Skins : 298</div>
+                <div class="number-of-figures-50-wrapper3">
+                  <div class="number-of-figures6">Number Of Figures: 99</div>
+                </div>
+              </div>
+              <div class="frame-wrapper6">
+                <div class="frame-parent17">
+                  <div class="wrapper3">
+                    <div class="div5">2.700.000đ
+
+                    </div>
+                  </div>
+                  <button class="chi-tit-wrapper2">
+                    <div class="chi-tit6">DETAIL </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card7">
+            <div class="frame-parent18">
+              <div class="image-parent4">
+                <img class="image-icon7" alt="" src="public/MS1127.jpg" />
+
+                <div class="rectangle-parent6">
+                  <div class="frame-child8"></div>
+                  <b class="code-yc12937">CODE : #MS1127 </b>
+                </div>
+              </div>
+              <div class="nick-lin-qun-trng-wrapper4">
+                <b class="nick-lin-qun7">Allain Tuyet Son Song Kiem                </b>
+              </div>
+            </div>
+            <div class="frame-parent19">
+              <div class="number-of-skins-100-parent4">
+                <div class="number-of-skins8">Number Of Skins : 175</div>
+                <div class="number-of-figures-50-wrapper4">
+                  <div class="number-of-figures7">Number Of Figures: 67</div>
+                </div>
+              </div>
+              <div class="frame-wrapper7">
+                <div class="frame-parent20">
+                  <div class="wrapper4">
+                    <div class="div6">2.200.000đ
+
+                    </div>
+                  </div>
+                  <button class="chi-tit-wrapper3">
+                    <div class="chi-tit7">DETAIL </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card8">
+            <div class="frame-parent21">
+              <div class="image-parent5">
+                <img class="image-icon8" alt="" src="public/MS1128.jpg" />
+
+                <div class="rectangle-parent7">
+                  <div class="frame-child9"></div>
+                  <b class="code-yc12938">CODE : #MS1128 </b>
+                </div>
+              </div>
+              <div class="nick-lin-qun-trng-wrapper5">
+                <b class="nick-lin-qun8">Nakroth Thu Nguyen Ve Than
+                </b>
+              </div>
+            </div>
+            <div class="frame-parent22">
+              <div class="number-of-skins-100-parent5">
+                <div class="number-of-skins9">Number Of Skins : 372</div>
+                <div class="number-of-figures-50-wrapper5">
+                  <div class="number-of-figures8">Number Of Figures: 82</div>
+                </div>
+              </div>
+              <div class="frame-wrapper8">
+                <div class="frame-parent23">
+                  <div class="wrapper5">
+                    <div class="div7">4.700.000đ
+
+                    </div>
+                  </div>
+                  <button class="chi-tit-wrapper4">
+                    <div class="chi-tit8">DETAIL </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="pagination-dots-container-wrapper">
+        <div class="pagination-dots-container">
+          <div class="pagination-dots-wrapper">
+            <div class="page-dots"></div>
+            <b class="page-numbers">1</b>
+          </div>
+          <div class="pagination-dots-wrapper1">
+            <div class="pagination-dots-wrapper-child"></div>
+            <b class="b">2</b>
+          </div>
+          <div class="pagination-dots-wrapper2">
+            <div class="pagination-dots-wrapper-item"></div>
+            <h1 class="h1">...</h1>
+          </div>
+          <div class="page-indicators">
+            
+            <div class="page-indicators-child"></div>
+              <a href="C:\Users\MSIGameMing\OneDrive\Documents\Shopvt.vn\Seeall2\index.html"> 
+            <h1 class="h11">&gt;<h1>
+            </a>
+         
+          </div>
+        </div>
+      </div>
+      <footer class="navigation-footer">
+        <div class="footer-container">
+          <div class="footer-content">
+            <div class="website-info">
+              <img
+                class="neon-green-vintage-art-quote-d"
+                loading="lazy"
+                alt=""
+                src="./public/neon-green-vintage-art-quote-desktop-wallpaper-1-1@2x.png"
+              />
+
+              <b class="vtgamings-main-website-container">
+                <p class="vtgamings-main">VTGAMING’S MAIN</p>
+                <p class="website">WEBSITE</p>
+              </b>
+            </div>
+            <div class="items">
+              <div class="we-are-here-container">
+                <span>
+                  <p class="we-are-here">WE ARE HERE !!!</p>
+                  <p class="we-always-put">
+                    We always put reputation first with customers, hope to be
+                    able to serve you. Thank you!
+                  </p>
+                </span>
+              </div>
+              <div class="support-time-morning-container">
+                <p class="support-time">Support time:</p>
+                <p class="morning-800-am">
+                  Morning: 8:00 am -&gt; 11:30 am | Afternoon: 13:00 -&gt; 22:00
+                </p>
+              </div>
+              <div class="hotline-0795625822-hotline-container">
+                <p class="hotline-0795625822">Hotline: 0795.625.822</p>
+                <p class="hotline-0905890372">Hotline: 0905.890.372</p>
+              </div>
+              <div class="detailed-support">
+                Detailed support : Access Support Now !!!
+              </div>
+            </div>
+            <img
+              class="footer-content-child"
+              loading="lazy"
+              alt=""
+              src="./public/frame-108@2x.png"
+            />
+
+            <b class="copyright-2024-privacy-container">
+              <span class="copyright-2024-privacy-container1">
+                <p class="copyright-2024-privacy-polic">
+                  © Copyright 2024 - 
+                  <a
+                    class="privacy-policy"
+                    href="https://kitio.net/tin-tuc/kitio-privacy-policy"
+                    target="_blank"
+                  >
+                    <span class="privacy-policy1">Privacy Policy</span> </a
+                  > - 
+                  <a
+                    class="terms-of-service"
+                    href="https://kitio.net/tin-tuc/terms-of-service"
+                    target="_blank"
+                  >
+                    <span class="terms-of-service1">Terms of Service</span>
+                  </a>
+                </p>
+                <p class="operated-by-kitio-all-rights">
+                  Operated by 
+                  <a class="kitio" href="https://kitio.net/" target="_blank">
+                    <span class="kitio1">Kitio</span> </a
+                  >, All Rights Reserved
+                </p>
+              </span>
+            </b>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
