@@ -9,7 +9,7 @@ ShopVT is a place where you can unleash your passion for games. There are many u
 
 <h2>Main Feature</h2>
   <ul>
-    <li>Hompage</li>
+    <li>Homepage</li>
     <ul>
       <li>Full range of services</li> 
       <li>Button(see all): To view details on the see all page and select filters, enter information</li>
