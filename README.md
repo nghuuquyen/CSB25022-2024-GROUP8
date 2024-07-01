@@ -42,7 +42,11 @@ ShopVT is a place where you can unleash your passion for games. There are many u
 ![See All 2](https://github.com/nhatvietax/shopvt.com/assets/163091302/f1914a80-fcc9-4098-b936-9122328153ea)
 ![Detail](https://github.com/nhatvietax/shopvt.com/assets/163091302/a2d46f8e-168f-4327-a44f-e1406067c8e0)
 <h2> Video Demo Web Shop Acc Game </h2> 
+<video controls>
+  <source src="https://github.com/nhatvietax/shopvt.com/blob/main/20240701101501.mp4" type="video/mp4">
+</video>
 ![video](https://github.com/nhatvietax/shopvt.com/blob/main/20240701101501.mp4)
+</br>
 <h32>Planning</h3>
 <ul>
   <li>Week1: Design user interface(UI) developmemt</li>
